@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,12 +16,7 @@ public class ScrpitAleatorio : MonoBehaviour
         StartCoroutine(SpawnDrop());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+ 
     IEnumerator SpawnDrop(){
         while(count < 100){
             xPos = Random.Range(1,50); //Mínimo e máximo de X e Y

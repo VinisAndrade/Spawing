@@ -24,8 +24,4 @@ public class Spawn : MonoBehaviour {
             spawnCount++;
         }
     }
-    // Update is called once per frame
-    void Update () {
-
-    }
 }
